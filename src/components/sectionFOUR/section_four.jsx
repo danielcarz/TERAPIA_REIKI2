@@ -8,7 +8,9 @@ const Section_four = () => {
 
     return(
 
-        <h1 className="four" >SECTION FOOUR</h1>
+        <section className="section">
+            <h1 className="five">SECTION FOUR</h1>
+        </section>
     )
 }
 

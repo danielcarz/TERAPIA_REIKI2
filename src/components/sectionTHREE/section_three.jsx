@@ -7,7 +7,9 @@ const Section_three = () => {
 
     return(
 
-        <h1>SECTION THREE</h1>
+        <section className="section">
+            <h1 className="five">SECTION THREE</h1>
+        </section>
     )
 }
 

@@ -6,7 +6,9 @@ import '../../styles/_section_two.scss'
 const Section_two = () => {
 
     return(
-        <h1 className="two">SECTION TWO</h1>
+        <section className="section">
+            <h1 className="five">SECTION TWO</h1>
+        </section>
     )
 }
 
