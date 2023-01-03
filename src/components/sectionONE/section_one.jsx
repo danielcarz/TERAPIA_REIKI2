@@ -5,6 +5,7 @@ import '../../styles/_section_one.scss'
 
 //IMAGES
 import logo from '../../assets/LOGO-ASHIRA-2020.png'
+import _imagen_servicio from '../../assets/IMG_6895.jpg'
 
 const Section_one = () => {
 
@@ -24,7 +25,9 @@ const Section_one = () => {
                 <div><button><a href="">RESERVA</a></button></div>
             </nav>
 
-            <figure className="imagen_servicio"><img src="" alt="imagen_servicio" /></figure>
+            
+
+            <figure className="imagen_servicio"><img src={_imagen_servicio} alt="imagen_servicio" /></figure>
         </header>
     )
 }
