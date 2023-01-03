@@ -69,6 +69,11 @@
             display: flex;
             flex-direction: column;
 
+            .imagen_logo{
+                width: 180px;
+                height: 180px;
+            }
+
             height: 35vh;
             .ulist{
                 display: none;
