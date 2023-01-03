@@ -1,3 +1,5 @@
+@import './_media_queries.scss';
+
 .section_one{
     /* border: 2px solid rgb(8, 52, 231); */
     height: 90vh;
@@ -14,6 +16,7 @@
         border: 5px solid rgb(1, 5, 42);
 
         .imagen_logo{
+            margin: 0;
             width: 100px;
             height: 50px;
             border: 2px solid black;
@@ -26,6 +29,7 @@
         }
 
         ul{
+            
             display: flex;
             text-decoration: none;
             list-style: none;
@@ -42,6 +46,8 @@
             }
 
         }
+
+        
     }
 
     .imagen_servicio{
@@ -57,4 +63,17 @@
             border-radius: 20px;
             }
     }
+    //MIXINS PHONE TABLETS DESKTOP
+    @include phone {
+        .navbar{
+            display: flex;
+            flex-direction: column;
+
+            height: 35vh;
+            .ulist{
+                display: none;
+            }
+        }
+    }
+   
 }
