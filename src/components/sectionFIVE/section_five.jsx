@@ -8,7 +8,7 @@ const Section_five = () => {
 
     return(
         <section className="section">
-            <h1 className="five">SECTION FIVE</h1>
+            
         </section>
         
     )

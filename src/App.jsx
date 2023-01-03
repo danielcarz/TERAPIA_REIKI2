@@ -1,4 +1,4 @@
-import './styles/app.css'
+import './styles/_app.scss'
 
 //COMPONENTS
 import {Section_one} from "./components/sectionONE/section_one";
