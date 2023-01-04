@@ -5,7 +5,7 @@ import '../../styles/_section_one.scss'
 
 //IMAGES
 import logo from '../../assets/LOGO-ASHIRA-2020.png'
-import _imagen_servicio from '../../assets/IMG_6895.jpg'
+import _imagen_servicio from '../../assets/IMG_6885.jpg'
 
 const Section_one = () => {
 
