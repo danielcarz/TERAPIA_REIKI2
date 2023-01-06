@@ -22,12 +22,22 @@ const Section_one = () => {
                     
                 </ul>
 
-                <div><button><a href="">RESERVA</a></button></div>
+                
             </nav>
 
             
+            <section className="imagen_portada_container">
+                <figure className="imagen_servicio"><img className="imagen_desktop" src={_imagen_servicio} alt="imagen_servicio" />
+                    <div className="bienvenido">
+                        <h1>BIENVENIDO</h1>
+                        <h2>ASHIRA reiki</h2>
+                        <button className="reserva"><a href="">RESERVA</a></button>
+                    </div>
+                    
+                </figure>
+                
 
-            <figure className="imagen_servicio"><img src={_imagen_servicio} alt="imagen_servicio" /></figure>
+            </section>
         </header>
     )
 }
