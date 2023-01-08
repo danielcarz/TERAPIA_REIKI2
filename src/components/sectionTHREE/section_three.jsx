@@ -10,80 +10,98 @@ const Section_three = () => {
 
     return(
 
-        <section className="section">
-
-            <section className="servicios_wrapper">
-                <figure className="imagen_servicios"><img src={masaje_relajante} alt="servicios" /></figure>
-                <section className="servicios_introduccion">
-                    <h3>servicio1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
-                </section>
-
-            </section>
-
-            <section className="servicios_wrapper">
-                <figure className="imagen_servicios"><img src="" alt="servicios" /></figure>
-                <section className="servicios_introduccion">
-                    <h3>servicio1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
-                </section>
-
-            </section>
-
-            <section className="servicios_wrapper">
-                <figure className="imagen_servicios"><img src="" alt="servicios" /></figure>
-                <section className="servicios_introduccion">
-                    <h3>servicio1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
-                </section>
-
-            </section>
-
-            <section className="servicios_wrapper">
-                <figure className="imagen_servicios"><img src="" alt="servicios" /></figure>
-                <section className="servicios_introduccion">
-                    <h3>servicio1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
-                </section>
-
-            </section>
-
-            <section className="servicios_wrapper">
-                <figure className="imagen_servicios"><img src="" alt="servicios" /></figure>
-                <section className="servicios_introduccion">
-                    <h3>servicio1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
-                </section>
-
-            </section>
-
-            <section className="servicios_wrapper">
-                <figure className="imagen_servicios"><img src="" alt="servicios" /></figure>
-                <section className="servicios_introduccion">
-                    <h3>servicio1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
-                </section>
-
-            </section>
-
-            <section className="servicios_wrapper">
-                <figure className="imagen_servicios"><img src="" alt="servicios" /></figure>
-                <section className="servicios_introduccion">
-                    <h3>servicio1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
-                </section>
-
-            </section>
-
-            <section className="servicios_wrapper">
-                <figure className="imagen_servicios"><img src="" alt="servicios" /></figure>
-                <section className="servicios_introduccion">
-                    <h3>servicio1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
-                </section>
-
-            </section>
+        <section className="section_three">
             
+            <section className="servicios_wrapper">
+               
+                <figure className="imagen_servicios"><img src={masaje_relajante} alt="servicios" />
+                    <section className="servicios_introduccion">
+                        <h3>REFLEXIOLOGIA</h3>
+                        <p className="introduccion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
+                     </section>
+
+                </figure>
+                
+            </section>
+
+            <section className="servicios_wrapper">
+                <figure className="imagen_servicios"><img src={masaje_relajante} alt="servicios" />
+                    <section className="servicios_introduccion">
+                        <h3>REFLEXIOLOGIA</h3>
+{/*                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
+ */}                    </section>
+
+                </figure>
+                
+            </section>
+
+            <section className="servicios_wrapper">
+                <figure className="imagen_servicios"><img src={masaje_relajante} alt="servicios" />
+                    <section className="servicios_introduccion">
+                        <h3>REFLEXIOLOGIA</h3>
+{/*                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
+ */}                    </section>
+
+                </figure>
+                
+            </section>
+
+            <section className="servicios_wrapper">
+                <figure className="imagen_servicios"><img src={masaje_relajante} alt="servicios" />
+                    <section className="servicios_introduccion">
+                        <h3>REFLEXIOLOGIA</h3>
+{/*                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
+ */}                    </section>
+
+                </figure>
+                
+            </section>
+
+            <section className="servicios_wrapper">
+                <figure className="imagen_servicios"><img src={masaje_relajante} alt="servicios" />
+                    <section className="servicios_introduccion">
+                        <h3>REFLEXIOLOGIA</h3>
+{/*                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
+ */}                    </section>
+
+                </figure>
+                
+            </section>
+
+            <section className="servicios_wrapper">
+                <figure className="imagen_servicios"><img src={masaje_relajante} alt="servicios" />
+                    <section className="servicios_introduccion">
+                        <h3>REFLEXIOLOGIA</h3>
+{/*                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
+ */}                    </section>
+
+                </figure>
+                
+            </section>
+
+            <section className="servicios_wrapper">
+                <figure className="imagen_servicios"><img src={masaje_relajante} alt="servicios" />
+                    <section className="servicios_introduccion">
+                        <h3>REFLEXIOLOGIA</h3>
+{/*                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
+ */}                    </section>
+
+                </figure>
+                
+            </section>
+
+            <section className="servicios_wrapper">
+                <figure className="imagen_servicios"><img src={masaje_relajante} alt="servicios" />
+                    <section className="servicios_introduccion">
+                        <h3>REFLEXIOLOGIA</h3>
+{/*                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eos alias fugit sint atque aperiam commodi quidem explicabo. Voluptates, labore.</p>
+ */}                    </section>
+
+                </figure>
+                
+            </section>
+
+           
         </section>
     )
 }
