@@ -1,81 +1,57 @@
 @import './media_queries';
+
 .section_three{
+    .card_container{
+        padding: 20px;
+        width: 100%;
+        height: 100vh;
 
-    margin: 0 auto;
-    padding: 20px;
-    height: auto;
+        display: flex;
+        align-items: center;
 
-    display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+        position: relative;
 
-    font-size: 16px;
-    text-align: center;
-    color: beige;
 
-    border: 1px solid blue;
 
-    .servicios_wrapper{
 
+        border: 2px solid red;
+
+        .card_info_wrapper{
+
+            width: 70%;
+            height: 400px;
         
-
-        .imagen_servicios{
-            position: relative;
-    
-            width: 80%;
-    
-            border: 1px solid red;
+            z-index: 1;
         
+            background-color: beige;
+            border: 1px solid blue;
+        }
+
+        .card_imagen{
+            width: 45%;
+            height: 400px;
+        
+            position: absolute;
+            right: 80px;
+            top: 1px;
+        
+            z-index: 2;
+        
+            background-color: greenyellow;
+            border: 1px solid rgb(149, 255, 0);
+        
+            border: 1px solid green;
+        
+            -webkit-box-shadow: -38px 47px 5px -21px rgba(0,0,0,0.08);
+            -moz-box-shadow: -38px 47px 5px -21px rgba(0,0,0,0.08);
+            box-shadow: -38px 47px 5px -21px rgba(0,0,0,0.08);
+
             img{
                 object-fit: cover;
                 width: 100%;
-                height: 250px;
-                border-radius: 20px;
-            }
-            
-            .servicios_introduccion{
-                position: absolute;
+                height: 400px;
                 
-        
-                
-                top: 10px;
-        
-                border: 1px solid red;
-    
-                .introduccion{
-                    display: none;
-                }
-
-                
-            }
-            &:hover{
-                border: 3px solid blue;
-                transform: scale(1.1);
-                transition: 1s;
-                
-                img{
-                    opacity: 0.5;
-                }
-                .introduccion{
-                    opacity: 10;
-                    display: flex;
-                    color: black;
-                }
             }
         }
-
     }
-
-    @include phone {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    
-
-
-
 }
-
