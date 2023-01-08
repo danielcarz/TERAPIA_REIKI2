@@ -1,37 +1,41 @@
 @import './media_queries';
 .section_three{
 
-    margin: 0 auto;
-    padding: 20px;
+   
+    padding: 0;
     height: auto;
 
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    grid-auto-rows:auto;
 
     font-size: 16px;
     text-align: center;
-    color: beige;
+    color: rgb(4, 15, 12);
 
     border: 1px solid blue;
 
     .servicios_wrapper{
-
-        
+        border: 1px solid red;
+        h2{
+            width: 100%;
+            margin-bottom: 50px;
+            border: 1px solid black;
+        }
 
         .imagen_servicios{
             position: relative;
-    
-            width: 80%;
+            
+            
     
             border: 1px solid red;
         
             img{
                 object-fit: cover;
                 width: 100%;
-                height: 250px;
-                border-radius: 20px;
+                height: 200px;
+               
             }
             
             .servicios_introduccion{
@@ -51,7 +55,7 @@
             }
             &:hover{
                 border: 3px solid blue;
-                transform: scale(1.1);
+                transform: scale(1.2);
                 transition: 1s;
                 
                 img{
